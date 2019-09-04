@@ -1,0 +1,472 @@
+.head{
+	height:40px;
+	overflow:hidden;
+	line-height:45px;
+}
+.tag{
+	font-size:14px;
+	float:left;
+}
+.more{
+	float:right;
+}
+.TopArticle{
+	width:1200px;
+	height:108px;
+	overflow:hidden;
+	margin:20px 0;
+	border-top:#DDD solid 1px;
+	border-bottom:#DDD solid 1px;
+	background:url(icon4.gif) repeat-y;
+}
+.TopArticle dl{
+	width:400px;
+	height:108px;
+	overflow:hidden;
+	background:url(icon4.gif) right top repeat-y;
+	float:left;
+}
+.TopArticle dl dt{
+	width:120px;
+	border:#DDD solid 1px;
+	padding:1px;
+	margin:7px 0 0 7px;
+	float:left;
+}
+.TopArticle dl dt a{
+	display:block;
+	width:120px;
+	height:90px;
+	overflow:hidden;
+}
+.TopArticle dl dt a img{width:120px; height:90px;}
+.TopArticle dl dd{
+	width:250px;
+	float:left;
+	padding:9px 0 0 8px;
+}
+.TopArticle dl dd .t{
+	height:25px;
+	line-height:25px;
+	overflow:hidden;
+	font-weight:bold;
+}
+.TopArticle dl dd .t a{font-size:14px;}
+.TopArticle dl dd .c{ margin-top:5px;
+	height:66px;
+	overflow:hidden;
+	line-height:22px;
+	color:#666;
+}
+.MainContainer .MainL{
+	width:840px;
+	float:left;
+}
+.MainContainer .SideR{
+	width:336px;
+	float:right;
+}
+.MainContainer .ClearDiv{
+	clear:both;
+}
+.maincont{
+	border:#D6D6D6 solid 1px;
+	border-top:#5FA1CC solid 5px;
+	padding:10px;
+}
+.maincont .head{
+	height:30px;
+	line-height:30px;
+	background:url(icon3.gif) left bottom repeat-x;
+	padding-left:10px;
+}
+.maincont .head .tag{font-size:16px;}
+.maincont .cont{
+	padding-top:10px;
+}
+.maincont .cont .title{
+	padding-top:10px;
+	line-height:30px;
+	text-align:center;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.maincont .cont .top_about{
+	height:25px;
+	line-height:20px;
+	text-align:center;
+	color:#666;
+	margin-bottom:10px;
+}
+.maincont .cont .tag_username{
+	height:25px;
+	line-height:28px;
+	width:95%;
+	overflow:hidden;
+	margin:10px auto;
+	border:#DDD dotted 1px;
+}
+.maincont .cont .tag_username .FL{
+	padding-left:10px;
+}
+.maincont .cont .tag_username .FR{
+	padding-right:10px;
+}
+.maincont .cont .content{
+	line-height:20px;
+	font-size:14px;
+}
+.nextpage{
+	width:95%;
+	margin:auto;
+	line-height:25px;
+	font-size:14px;
+}
+.nextpage .b{
+	font-weight:bold;
+}
+.showpage{
+	line-height:30px;
+	text-align:center;	
+}
+.showpage a{
+	border:#DDD solid 1px;
+	padding:3px 5px 2px 5px;
+	color:#888;
+}
+.maction{
+	height:25px;
+	text-align:right;
+}
+.Share_to{
+	text-align:right;
+	padding-right:15px;
+	font-size:14px;
+}
+.Share_to img{
+	vertical-align:middle;
+}
+/*
+*评论样式
+*/
+.ShowComment{	
+	margin-top:20px;	
+}
+.listcomment{
+	border:#ddd solid 1px;
+	padding:10px;
+	background:#FBFBFB;
+}
+.listcomment .nocomment{
+	line-height:50px;
+	text-align:center;
+	font-size:18px;
+	color:#888;
+}
+.listcomment .showpage{
+	padding-top:3px;
+	line-height:25px;
+	text-align:center;
+}
+.listcomment .showpage a{
+	border:#DDD solid 1px;
+	padding:3px 5px 2px 5px;
+	color:#888;
+}
+.listcomment ul{
+	border-bottom:#DDD dotted 1px;
+}
+.listcomment ul li{
+	clear:both;
+}
+.listcomment ul li.info{
+	height:25px;
+	overflow:hidden;
+	line-height:28px;
+	padding:5px 5px 0 5px;
+} 
+.listcomment ul li.info .fl{
+	float:left;
+	color:#666;
+}
+.listcomment ul li.info .fl a{
+	color:blue;
+}
+.listcomment ul li.info .fr{
+	float:right;
+	color:#888;
+}
+.listcomment ul li.cont{
+	padding-left:5px;
+}
+.listcomment ul li.cont .img{
+	display:block;
+	width:50px;
+	height:50px;
+	border:#DDD solid 1px;
+	padding:2px;
+	float:left;
+}
+.listcomment ul li.cont .c{
+	display:block;
+	width:560px;
+	float:left;
+	line-height:20PX;
+	color:#666;
+	padding-left:10px;
+}
+.listcomment ul li.cont .c img{
+	vertical-align:middle;
+	margin-right:5px;
+}
+.listcomment ul li.atc{
+	text-align:right;
+	padding:0 5px 8px 0;
+}
+.listcomment ul li.atc img{
+	vertical-align:middle;
+}
+.listcomment ul li.atc a{
+	color:#2143DC;
+}
+.AddComment{
+	border:#DDD solid 1px;
+	padding:0 10px 10px 10px;
+	margin-top:10px;
+}
+.ShowComment .h{
+	height:32px;
+	border-bottom:#DDD solid 1px;
+	overflow:hidden;
+	line-height:35px;
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.ShowComment .h .tag{
+	float:left;
+	padding-left:20px;
+	background:url(icon6.gif) left 9px no-repeat;
+}
+.ShowComment  .tdL{
+	width:60px;
+	line-height:30px;
+	text-align:right;
+	padding-right:5px;
+}
+.ShowComment  .tdR{
+	padding-top:3px;
+}
+/*
+*右边样式
+*/
+.ShowSort .listsort{
+	width:50%;
+	height:40px;
+	float:left;
+}
+.ShowSort .listsort a{
+	display:block;
+	width:94%;
+	height:28px;
+	border:#7DB6E3 solid 1px;
+	text-align:center;
+	line-height:28px;
+	overflow:hidden;
+	background:url(bg4.gif) left bottom repeat-x;
+	font-size:14px;
+}
+/*
+*文章排行
+*/
+.TopArticles{
+	border-top: 5px solid #60a2cd;
+	margin-top:2px;
+}
+.TopArticles .head{
+	border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+	height:40px;
+	overflow:hidden;
+	line-height:40px;
+	padding-left:10px;
+}
+.TopArticles .head .tag{font-size:16px;}
+.TopArticles .cont{
+	border:#D7D7D7 solid 1px;
+	border-top:0;
+	padding:0 10px 10px 10px;
+}
+.TopArticles .cont .h{
+	height:28px;
+	overflow:hidden;
+	background:url(head3.gif) repeat-x;
+	line-height:35px;
+}
+.TopArticles .cont .h span{
+	display:block;
+	width:67px;
+	text-align:center;
+	float:left;
+	margin-right:3px;
+	background:url(out2.gif) repeat-x;
+	color:#666;
+	cursor:pointer;
+}
+.TopArticles .cont .h span.choose{
+	background:url(over2.gif) no-repeat;
+	color:#333;
+}
+.TopArticles .cont .c{
+	padding-top:5px;	
+}
+.TopArticles .cont .c div{
+	height:15px;
+	line-height:15px;
+	border-bottom:#DDD dotted 1px;
+	overflow:hidden;
+	padding:10px 0 10px 0;
+}
+.TopArticles .cont .c div span{
+	display:block;
+	width:15px;
+	border-right:#D9D9D9 solid 1px;
+	float:left;
+	text-align:center;
+	font-weight:bold;
+	color:#666;
+}
+.TopArticles .cont .c div a{
+	display:block;
+	float:left;
+	padding-left:5px;
+	color:#007bbb;
+}
+.siderad{
+	width:336px;
+	height:150px;
+	overflow:hidden;
+	margin-top:10px;
+}
+.siderad img{width:100%;}
+/*
+*热门专题
+*/
+.HotZtcont{
+	border:#d7d7d7 solid 1px;
+	margin-top:10px;
+}
+.HotZtcont .head{
+	border-bottom:#d7d7d7 solid 1px;
+	padding-right:10px;
+}
+.HotZtcont .head .tag{
+	padding-left:35px;
+	background:url(icon1.gif) 10px 15px no-repeat;
+}
+.HotZtcont .cont{
+	padding:10px;
+}
+.HotZtcont .cont .c1{
+	height:132px;
+	overflow:hidden;
+	border-bottom:#DDD dotted 1px;
+}
+.HotZtcont .cont .c2{
+	padding-top:8px;
+}
+.HotZtcont .cont dl{
+	width:50%;
+	height:132px;
+	overflow:hidden;
+	float:left;	
+}
+.HotZtcont .cont dl dt{
+	width:122px;
+	border:#DDD solid 1px;
+	padding:1px;
+	margin:0 auto 3px auto;
+}
+.HotZtcont .cont dl dt a{
+	display:block;
+	width:100%;
+	height:90px;
+	overflow:hidden;
+}
+.HotZtcont .cont dl dt a img{width:100%; height:90px;}
+.HotZtcont .cont dl dd{
+	width:122px;
+	height:36px;
+	margin:auto;
+	overflow:hidden;
+	line-height:36px;
+}
+.HotZtcont .cont dl dd a{
+	color:#007bbb;
+}
+.HotZtcont .cont .list{paddin:3px 0;
+	clear:both;
+	height:23px;
+	overflow:hidden;
+	line-height:23px;
+	padding-left:10px;
+	background:url(icon2.gif) left 8px no-repeat;
+}
+.HotZtcont .cont .list a{
+	color:#666;
+}
+/*
+*
+*/
+.showquote{
+	border:1px solid #999999;background:#FFFFEE;margin:1px;padding:2px;
+}
+.comment_content{
+	padding:5px;
+}
+.quote_content{
+	margin-left:2px;
+}
+.showquote .author{
+	color:#4975C5;
+}
+.warp_comment{
+	border:3px dotted #eee;width:96%;margin-bottom:5px;padding:5px;display:none;
+}
+.ShowComment .listcomment .content{
+	border-bottom:#DDD dotted 1px;
+}
+.ShowComment .listcomment .content .img{
+	padding:5px;
+}
+.ShowComment .listcomment .content .img a{
+	display:block;
+	border:#DDD solid 1px;
+	padding:1px;
+} 
+.ShowComment .listcomment .content .info{
+	text-align:right;
+	vertical-align:middle;
+	line-height:30px;
+}
+.ShowComment .listcomment .content .info .warp_comment{
+	text-align:left;
+}
+.ShowComment .listcomment .nocomment{
+	text-align:center;
+	line-height:40px;
+	font-size:16px;
+	color:red;
+}
+.ShowComment .listcomment .page{
+	padding:10px;
+	text-align:center;
+}
+.ShowComment .listcomment .page a{
+	border:#DDD solid 1px;
+	padding:3px 5px 2px 5px;
+	color:#888;
+}
+#form_comment table tr td{padding:5px 0;}
+#comment_username_tr span.L{display:block; text-align:right; padding-right:5px;}
